@@ -1,0 +1,105 @@
+.header-bar{
+    display: flex;
+    position: absolute;
+    padding: 0px;
+   top: 0px;
+    width: 100%; 
+    height: 50px;
+    background-color: #121212;
+    
+
+}
+
+.izquerda{
+    width: 100%;
+    height: 50px; 
+
+}
+
+
+.meio{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px; 
+
+}
+
+.contenedorMeio{
+    display: flex;
+    margin-left: 50px;
+    width: 100%;
+    height: 30px;
+   
+}
+
+.pesquisa{
+    border: 1px solid lightgray; 
+    width: 80%;
+    height: 29px;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+.btnpesquisa{
+    border: 1px solid lightgray; 
+    width: 20%;
+    margin-left: 0px;
+    height: 29px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
+.direita{
+    display: flex;
+    width: 100%;
+    height: 50px; 
+   
+}
+
+.d-izquerda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 50px; 
+   
+}
+
+
+.ref-texto{
+   color: white; 
+   font-size: 1.5rem;
+   margin-top: 10px;
+    margin-left: 10px;
+    overflow:hidden ;
+    float: left;
+}
+.a-texto{
+    color: white;
+    text-decoration: none;
+}
+.a-texto-f{
+    color: white;
+    
+}
+
+
+.d-direita{
+    width: 25%;
+    height: 50px; 
+
+}
+
+.fa-shopping-cart{
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: white; 
+}
+.btn{
+    background-color:  #121212;
+}

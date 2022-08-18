@@ -1,0 +1,116 @@
+.ContenedorPrincipal{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+}
+
+
+.izquerda{
+    display: flex;
+    flex-direction: column;
+     width: 50%;
+     height: 100%;
+}
+
+.ContenedorIMG{
+    margin-top: 30px;
+     width: 100%;
+     height: 250px;
+   
+}
+
+.IMG{
+    width: 100%;
+    height: 250px;   
+    object-fit: contain;
+}
+
+.ContenedorDetalhesTitulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 30%;
+    height: 60px;
+    border-bottom: 3px solid #3d85c6;
+}
+
+.Detalhes{
+    font-size: 2.5rem;
+}
+
+.ContenedorEspeci{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 100px;
+    width: 80%;
+    height: 100%;
+    
+
+}
+
+.Especi{
+     font-size: 2rem;
+}
+
+
+.direita{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%; 
+ 
+ 
+}
+
+.ContenedorTitulo{
+    display: flex;
+    margin-top: 0px ;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50px;
+}
+
+.Titulo{
+
+    font-size: 4rem;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.ContenedorPreco{
+    margin-top: 100px;
+    width: 100%;
+    height: 60px;
+}
+.Preco{
+    font-size: 3.5rem;
+    color: #3d85c6;
+    font-weight: 900 !important;
+}
+
+.ContenedorBTN{
+  
+    margin-top: 50px;
+     width: 100%;
+     height: 50px;
+}
+
+.btn{
+    font-weight: 900 !important;
+    color: white; 
+    background-color : #3d85c6;
+    width: 30%;
+    height: 50px;
+}
+
+.btn:hover{
+    background-color : #fff;
+    border: 3px solid #3d85c6; 
+    color: black; 
+}
